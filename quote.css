@@ -1,0 +1,50 @@
+.quote{
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: hsl(199, 33%, 15%);
+    margin-top: -24rem;
+    margin-left: 6rem;
+    position: absolute;
+}
+.quote h3{
+    color: #31C4BE;
+    font-family: DM Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+.quote p{
+    width: 198px;
+    height: 172px;
+    flex-shrink: 0;
+    color: #F2B237;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+.quote .blue{
+    width: 29px;
+    height: 29px;
+    flex-shrink: 0;
+    background-color: #31C4BE;
+    border-radius: 20px;
+    margin-left: 6rem;
+    
+}
+.quote .blue img{
+    width: 25px;
+    height: 20px;
+    flex-shrink: 0;
+    padding-left: 4px;
+    padding-top: 8px;
+}

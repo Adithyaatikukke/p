@@ -1,0 +1,96 @@
+.logo{
+    margin-top: -750px;
+    margin-left:40rem;
+    position: absolute;
+    flex-direction: row;
+}
+.logo .Monkey{
+    width: 30px;
+}
+.logo .Vector{
+    
+    width: 48px;
+    padding-left: 1rem;
+}
+.smallBox{
+    width: 307px;
+    height: 154px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 7px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 33rem;
+    margin-top: -44rem;
+}
+.smallBox h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 85px;
+    padding-top: 23px;
+}
+.buttonSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    margin: 20px auto;
+    background: rgb(25, 42, 50);
+    border-radius: 5px;
+}
+.buttonSection button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.buttonSection button img{
+   position: absolute;
+}
+.options{
+    width: 307px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.options button{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 17px;
+    color: rgb(25, 42, 50);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 18px;
+    background: rgb(242, 178, 55);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    margin-top: -32rem;
+    margin-left: 33rem;
+    font-size: 17px;
+}
+.options button:nth-child(2) {
+    background: rgb(50, 196, 195);
+    font-size: 17px;
+    height: 48px;
+    margin-top: 1rem;
+}
+.options button:nth-child(3){
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 35rem;
+}

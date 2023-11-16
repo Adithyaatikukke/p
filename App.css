@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 75rem;
+  display: block;
+}
+.mobile{
+  width: 416px;
+  height: 748px;
+  flex-shrink: 0;
+  border-radius: 43px;
+  background: #192A32;
+  margin: 5rem 30rem;
+}
